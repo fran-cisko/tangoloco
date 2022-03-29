@@ -104,6 +104,19 @@ body.dark-theme {
   font-size: var(--small-font-size);
 }
 
+.flags{
+  width:4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flags__item{
+  width:1.75rem;
+}
+.flags__img{
+  cursor:pinter;
+  display: block;
+}
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;

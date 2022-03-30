@@ -323,7 +323,7 @@ input{
     &__social{
         display: flex;
         flex-direction: column;
-        row-gap: 1.5rem;
+        /*row-gap: 1.5rem;*/
 
         &-link{
             font-size: 1.2rem;
@@ -881,7 +881,7 @@ input{
     .section{
         padding: 7rem 0 2rem;
     }
-
+/*
     .home{
         &__container{
             height: 100vh;
@@ -900,7 +900,7 @@ input{
             bottom: 3rem;
         }
     }
-
+*/
     .about{
         &__container{
             grid-template-columns: repeat(2, 1fr);

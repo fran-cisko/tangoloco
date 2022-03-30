@@ -29,6 +29,21 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/*====================        LANGUAGES         ====================*/
+const flagsElement = document.getElementById("flags");
+
+const changeLanguage = async (language) => {
+    const requestJson = await fetch(`../languages/${language}.json`);
+    const textos = await requestJson.json();
+    console.log(textos)
+
+   
+}
+
+flagsElement.addEventListener("click", (e) =>{
+    changeLanguage(e.target.parentElement.dataset.language)
+})
+
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader(){

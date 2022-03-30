@@ -105,16 +105,16 @@ body.dark-theme {
 }
 
 .flags{
-  width:4rem;
+  width:3rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .flags__item{
-  width:1.75rem;
+  width:1.25rem;
 }
 .flags__img{
-  cursor:pinter;
+  cursor: pointer;
   display: block;
 }
 /*=============== BASE ===============*/
@@ -344,13 +344,16 @@ input {
 
 .home__social {
   display: flex;
-  flex-direction: column;
   row-gap: 1.5rem;
+  justify-content:center;
+  align-items: flex-end;
+  flex-direction:column
 }
 
 .home__social-link {
   font-size: 1.2rem;
   width: max-content;
+ 
 }
 
 .home__info {
@@ -917,12 +920,12 @@ input {
   .home__data {
     align-self: flex-end;
   }
-  .home__social {
+  /*.home__social {
     flex-direction: row;
     align-self: flex-end;
     margin-bottom: 3rem;
     column-gap: 2.5rem;
-  }
+  }*/
   .home__info {
     bottom: 3rem;
   }

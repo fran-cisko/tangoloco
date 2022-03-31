@@ -31,12 +31,18 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*====================        LANGUAGES         ====================*/
 const flagsElement = document.getElementById("flags");
+const textsToChange = document.querySelectorAll("[data-section]")
 
 const changeLanguage = async (language) => {
-    const requestJson = await fetch(`../languages/${language}.json`);
-    const textos = await requestJson.json();
-    console.log(textos)
-
+    const requestJson = await fetch(`../assets/languages/${language}.json`)
+    const texts = await requestJson.json()
+    
+    for(const textToChange of textsToChange ) {
+        const section = textToChange.dataset.section
+        const value = textToChange.dataset.value
+console.log(section, value)
+         textToChange.innerHTML=texts[section][value]
+    }
    
 }
 
@@ -66,7 +72,7 @@ let swiper = new Swiper(".discover__container", {
     },
 })
 
-/*==================== VIDEO ====================*/
+/*==================== VIDEO ====================
 const videoFile = document.getElementById('video-file'),
       videoButton = document.getElementById('video-button'),
       videoIcon = document.getElementById('video-icon')
@@ -88,7 +94,7 @@ function playPause(){
 
     }
 }
-videoButton.addEventListener('click', playPause)
+ videoButton.addEventListener('click', playPause)
 
 function finalVideo(){
     // Video ends, icon change
@@ -98,7 +104,7 @@ function finalVideo(){
 // ended, when the video ends
 videoFile.addEventListener('ended', finalVideo)
 
-
+*/
 /*==================== SHOW SCROLL UP ====================*/ 
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');

@@ -312,7 +312,7 @@ input {
   left: 0;
   width: 100%;
   height: 100vh;
-  object-fit: cover;
+  object-fit:cover;
   object-position: 83%;
 }
 
@@ -321,6 +321,7 @@ input {
   height: calc(100vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
+  padding-right: 1rem;
 }
 
 .home__data-subtitle, 
@@ -366,6 +367,7 @@ input {
   right: 0;
   bottom: 1rem;
   width: 228px;
+  margin-right: 1remF;
 }
 
 .home__info-title {
@@ -609,12 +611,20 @@ input {
 
 /*=============== PLACES ===============*/
 .place__card, .place__img {
-  height: 230px;
+  width:22rem;
+  display:block;
 }
 
 .place__container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
+  /* display: grid;
+  gap:1rem;
+grid-auto-rows: 16rem;
+grid-template-columns: repeat(auto-fill, minmax(min(50%,15rem),2fr));
+grid-auto-flow: dense; */
+
+  
 }
 
 .place__card {
@@ -846,7 +856,7 @@ input {
 /* For small devices */
 @media screen and (max-width: 340px) {
   .place__container {
-    grid-template-columns: max-content;
+    grid-template-columns: repit(1,max-content);
     justify-content: center;
   }
   .experience__content {
@@ -1006,11 +1016,13 @@ input {
   }
   .home__container {
     grid-template-rows: 2fr .5fr;
+
   }
   .home__info {
     width: 328px;
     grid-template-columns: 1fr 2fr;
     column-gap: 2rem;
+    margin-right: 1rem;
   }
   .home__info-title {
     font-size: var(--normal-font-size);

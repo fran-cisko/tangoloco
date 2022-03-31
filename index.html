@@ -40,8 +40,8 @@
 
                     <div class="nav__dark">
                         <!-- Theme change button -->
-                        <span class="change-theme-name">Dark mode</span>
-                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                        <!-- <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i> -->
                     </div>
                     <div class="flags" id="flags">
                         <div class="flags__item" data-language="en">
@@ -87,14 +87,15 @@
                             <i class="ri-twitter-fill"></i>
                         </a>
                     </div>
-
-                    <div class="home__info">
+                    <a href="#last-show">
+                    <div class="home__info" >
                         <div>
                             <span class="home__info-title">Last show</span>
-                            <a href="" class="button button--flex button--link home__info-button">
+                            <a href="#last-show" class="button button--flex button--link home__info-button">
                                 More <i class="ri-arrow-right-line"></i>
                             </a>
                         </div>
+                    </a>
 
                         <div class="home__info-overlay">
                             <img src="assets/img/blackbird.jpg" alt="" class="home__info-img">
@@ -207,7 +208,7 @@
             
 
             <!--==================== EXPERIENCE ====================-->
-            <section class="experience section">
+            <section class="experience section" id="last-show">
                 <h2 class="section__title">{last show}<br> Blackbird</h2>
 
                 <div class="experience__container container grid">

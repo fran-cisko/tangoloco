@@ -611,19 +611,20 @@ input {
 
 /*=============== PLACES ===============*/
 .place__card, .place__img {
-  width:22rem;
+  width: 22rem;
+  height: 18rem;
   display:block;
 }
 
 .place__container {
-  grid-template-columns: repeat(2, max-content);
-  justify-content: center;
-  /* display: grid;
+ /* grid-template-columns: repeat(2, max-content);
+  justify-content: center;*/
+   display: grid;
   gap:1rem;
-grid-auto-rows: 16rem;
-grid-template-columns: repeat(auto-fill, minmax(min(50%,15rem),2fr));
-grid-auto-flow: dense; */
-
+grid-auto-rows: 22rem;
+grid-template-columns: repeat(auto-fill, minmax(min(50%,22rem),2fr));
+grid-auto-flow: dense; 
+justify-items:center;
   
 }
 
@@ -648,11 +649,11 @@ grid-auto-flow: dense; */
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 95%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:end;
   padding: .75rem .75rem 1rem;
 }
 
@@ -885,9 +886,9 @@ grid-auto-flow: dense; */
     grid-template-columns: .6fr;
     justify-content: center;
   }
-  .place__container {
+  /* .place__container {
     grid-template-columns: repeat(3, max-content);
-  }
+  } */
   .subscribe__form {
     width: 470px;
     margin: 0 auto;
@@ -981,9 +982,9 @@ grid-auto-flow: dense; */
     margin-right: auto;
   }
   .discover__container,
-  .place__container {
+  /* .place__container {
     padding-top: 2rem;
-  }
+  } */
   .experience__overlay:nth-child(1) {
     width: 363px;
     margin-right: 4rem;
@@ -1067,9 +1068,9 @@ grid-auto-flow: dense; */
   .video__description {
     padding: 0 8rem;
   }
-  .place__container {
+  /* .place__container {
     gap: 3rem 2rem;
-  }
+  } */
   .place__card, .place__img {
     height: 263px;
   }

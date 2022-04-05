@@ -25,16 +25,16 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
+                            <a href="#home" class="nav__link active-link" data-section="nav" data-value="home">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
+                            <a href="#discover" class="nav__link" data-section="nav" data-value="music">Music</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#discover" class="nav__link">Music</a>
+                            <a href="#about" class="nav__link" data-section="nav" data-value="about">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#place" class="nav__link">Members</a>
+                            <a href="#place" class="nav__link" data-section="nav" data-value="members">Members</a>
                         </li>
                     </ul>
 
@@ -94,8 +94,8 @@
                     <div class="home__info" >
                         <a href="#last-show">
                         <div>
-                            <span class="home__info-title">The new</span>
-                            <a href="#last-show" class="button button--flex button--link home__info-button">
+                            <span class="home__info-title" data-section="home" data-value="info-title">The new</span>
+                            <a href="#last-show" class="button button--flex button--link home__info-button" data-section="home" data-value="info-button">
                                 More <i class="ri-arrow-right-line"></i>
                             </a>
                         </div>
@@ -113,7 +113,7 @@
            
             <!--==================== DISCOVER Albums ====================-->
             <section class="discover section" id="discover">
-                <h2 class="section__title">Discography <br> and Youtube Channel</h2>
+                <h2 class="section__title" data-section="music" data-value="discography">Discography <br> and Youtube Channel</h2>
                 
                 <div class="discover__container container swiper-container">
                     <div class="swiper-wrapper">
@@ -187,7 +187,7 @@
             </section>
             <!--==================== VIDEO Youtube Chanel ====================-->
             <section class="video section">
-                <h2 class="section__title" data-section="youtube-chanel" data-value="youtube-chanel__title">Youtube Chanel</h2>
+                <h2 class="section__title" data-section="music" data-value="youtube-channel">Youtube Channel</h2>
 
                 <div class="video__container container">
                     <p class="video__description"  data-section="youtube-chanel" data-value="youtube-chanel__description">
@@ -213,21 +213,43 @@
             </section>
              <!--==================== ABOUT ====================-->
              <section class="about section" id="about">
-                <div class="about__container container grid">
-                    <div class="about__data">
-                        <h2 class="section__title about__title">About <br>TANGOLOCO- DANIEL GARCIA QUINTETO</h2>
-                        <p data-section="about" data-value="foto1" class="about__description">
-                           This formation was born in 2002, created by Daniel C. Garcia, an argentinean music arranger, pianist and composer. Tangoloco emerges from the success obtained by a composition for a Tv show, 099 Central, creating a sound by making a fusion of Tango, rock and jazz.<br>Daniel García travelled all over the world as a music arranger and composer. He is known by his work with Julia Zenko, Mercedes Sosa, Victor Manuel, Pedro Aznar, Abel Pintos, Lito Vitale, Ruben Rada , Leon Gieco and the famous cellist Yo Yo Ma among other artists.<br>In 1994 he received the Martin Fierro award for the music of the song “Con las alas del alma”, who shared with Eladia Blazquez. In 2003 he was nominated to the same award for the work of “099 central”.<br>   TANGOLOCO releases their first album in 2002, featuring the great guitarist Luis Salinas. In 2004 they released “Tangos de Liverpool”,fusioning the most beautiful melodies of The BEATLES with Tango.",
-        “Tangos de Liverpool” was presented in several countries of Latin America, also in 2005, at the Helsinki Festival of Finland.<br>In Argentina they presented their work in Buenos Aires at the Teatro San Martin and at the ND Ateneo. During 2004, they shared the stage with the famous dancer Maximiliano Guerra at the Teatro Opera.<br> In 2005 they made continuous tours with Maria Volonté, who with, in 2006, they released an album titled “I am Maria - Maria Volonté / Tangoloco Quinteto”.<br> The 3rd album of Tangoloco is “Rock en 2x4” with national rock classics fusioned with tango. Special guests were invited to participate: Ruben Rada, Pablo Ziegler, Cabernet, Maria Volonte and Guillermo Fernandez.",
-        In 2008, Tangoloco realeases an album with a live show at Velma café, which reunited the most popular singles of the band, with special guests like Patricia Sosa. This work was nominated to Gardel awards. During this year, the band travelled all over Latinoamerican countries including Mexico, Perú, Ecuador and Chile.<br>At 2010 they released in Argentina and Japan simultaneously “Tangos del mundo” with a Japanese singer, Anna Saeki. This album included Sting, Abba, Queen and Broadway songs, but with the sound of the 2x4, milonga and candombe.<br> They played this album through 11 cities in Japan, between November and December of 2010.",
-        In 2011 Daniel was in charge of composing the original ballet music “Ivan el Terrible” for Maximiliano Guerra, premiered at the Auditorium of Mar del Plata in January 2012.<br>    During August of 2012, “Tangoloco 10 años” was the show presented along 3 months at the Velma café in Palermo Hollywood with special guests: Ligia Piro, Noelia Moncada, Bruno Arias, Lito Vitale, Opus 4, Silvia Iriondo, Ariel Ardit, Raul Lavie, Horacio Ferrer, Guillermo Fernandez, Valeria Lynch, Patricia Sosa, Sandra Luna and Juan Darthes among others.<br> In June of 2012 they made a tour through the North of the country culminating in the “Festival of the great homeland” in Salta, for an audience of 30,000 people.",
-        In 2013 they released their 6th album: “Tangoloco Online”, which reunited all original songs composed by the members of the quintet. The album was presented  in Buenos Aires during 4 dates at the Velma café.<br>Tangoloco had their 2nd tour to Japan with Anna Saeki in 2014. For almost 20 days they played at the most important cities of the country. Later that year, they were presented at the Tango Festival of “Justo Daract” in San Luis.<br>   The quintet was nominated to the Gardel awards in 2005.",
-        In july of 2015, Tangoloco played at <a href="https://www.telam.com.ar/notas/201507/114187-tangoloco-festival-tango-la-falda.html" target="_blank">the Tango Festival of La Falda</a>. They were presented as “The Tango bulldozer”.<br>In September of 2015, they premiered at the Teatro Coliseo in Buenos Aires with Maximiliano Guerra's company. The musical direction of “Quereme Asi Piantao“, was on charge of Daniel García and it was dedicated to the great Horacio Ferrer.<br>During 2016 they performed at the 1st Festival of Necochea, “La ruta del Tango“ with great success. Later that year they travelled to the International Festival of Medellin, Colombia, and made 2 performances, one of them with Raul Lavie. <br>In 2017 they started a national tour with their new material: “Tango Negro“. This is their first orchestra album. It was released after a year of work, and reunited 25 musicians, string orchestra, brass and special guest singers : Raul Lavié, Jorge Vazquez, Laura G.Zenko, Dany Dorf , Savia , Rubén Rada.<br>“Tango Negro” includes the best known performers and authors of black music such as Duke Ellintong, Michael Jackson, Artetha Franklin, Gloria Gaynor, Barry White, Stevie Wonder and many others, fusioned with Mores, Fresedo, Troilo, Piazzolla, Canaro and Filiberto. It was published by Aqcua records in April of 2018.<br>They permormed in all G20 events held by the Presidency of the Nation during February 2018"
-                        </p>
-                    
+                <div class="about__container ">
+                    <div >
+                        <h2 class="section__title about__title about__intro" data-section="about" data-value="title">About <br>TANGOLOCO - DANIEL GARCIA QUINTETO</h2>
+                        <div data-section="about" data-value="foto1" class="about__description">
+                           This formation was born in 2002, created by Daniel C. Garcia, an argentinean music arranger, pianist and composer. Tangoloco emerges from the success obtained by a composition for a Tv show, 099 Central, creating a sound by making a fusion of Tango, rock and jazz.<br>Daniel García travelled all over the world as a music arranger and composer. He is known by his work with Julia Zenko, Mercedes Sosa, Victor Manuel, Pedro Aznar, Abel Pintos, Lito Vitale, Ruben Rada , Leon Gieco and the famous cellist Yo Yo Ma among other artists.<br>In 1994 he received the Martin Fierro award for the music of the song “Con las alas del alma”, who shared with Eladia Blazquez. In 2003 he was nominated to the same award for the work of “099 central”.<br> 
+                        </div>  
+                    </div>
+                    <div>   
+                        <figure class="about__figure">
+                             <img class="about__img" src="assets/img/TANGOLOCO-099 CENTRAL.jpg" alt="" srcset="">
+                        </figure>
+                    </div> 
+                    <div>   
+                        <figure class="about__figure">
+                             <img class="about__img"src="assets/img/TANGOS DE LIVERPOOL.jpg" alt="" srcset="">
+                        </figure>
+                    </div> 
+                    <div>    
+                        In 2004 they released “Tangos de Liverpool”,fusioning the most beautiful melodies of The BEATLES with Tango.<br>     
+                        “Tangos de Liverpool” was presented in several countries of Latin America, also in 2005, at the Helsinki Festival of Finland.<br>In Argentina they presented their work in Buenos Aires at the Teatro San Martin and at the ND Ateneo. During 2004, they shared the stage with the famous dancer Maximiliano Guerra at the Teatro Opera.<br> In 2005 they made continuous tours with Maria Volonté, who with, in 2006, they released an album titled “I am Maria - Maria Volonté / Tangoloco Quinteto”.<br>
+        
+                    </div>
+                
+                  
+                    <div>   
+                        <figure class="about__figure">
+                            <img class="about__img--left" src="assets/img/rock-en-2x4.jpg" alt="" srcset="">
+                       </figure>
+                    </div>
+                    <div>
+                        The 3rd album of Tangoloco is “Rock en 2x4” with national rock classics fusioned with tango. Special guests were invited to participate: Ruben Rada, Pablo Ziegler, Cabernet, Maria Volonte and Guillermo Fernandez.<br><br>  In 2008, Tangoloco realeases an album with a live show at Velma café, which reunited the most popular singles of the band, with special guests like Patricia Sosa. This work was nominated to Gardel awards. During this year, the band travelled all over Latinoamerican countries including Mexico, Perú, Ecuador and Chile.<br>At 2010 they released in Argentina and Japan simultaneously “Tangos del mundo” with a Japanese singer, Anna Saeki. This album included Sting, Abba, Queen and Broadway songs, but with the sound of the 2x4, milonga and candombe.<br> They played this album through 11 cities in Japan, between November and December of 2010.
+                    </div>
+                    <div class="about__1fr">
+                        In 2011 Daniel was in charge of composing the original ballet music “Ivan el Terrible” for Maximiliano Guerra, premiered at the Auditorium of Mar del Plata in January 2012.<br>    During August of 2012, “Tangoloco 10 años” was the show presented along 3 months at the Velma café in Palermo Hollywood with special guests: Ligia Piro, Noelia Moncada, Bruno Arias, Lito Vitale, Opus 4, Silvia Iriondo, Ariel Ardit, Raul Lavie, Horacio Ferrer, Guillermo Fernandez, Valeria Lynch, Patricia Sosa, Sandra Luna and Juan Darthes among others.<br> In June of 2012 they made a tour through the North of the country culminating in the “Festival of the great homeland” in Salta, for an audience of 30,000 people.
                     </div>
 
-                    <div class="about__img">
+                    <!-- <div class="about__img">
                         <div class="about__img-overlay">
                             <img src="assets/img/about_images/image2.jpg" alt="" class="about__img-one">
                         </div>
@@ -235,10 +257,10 @@
                         <div class="about__img-overlay">
                             <img src="assets/img/about_images/image11.jpg" alt="" class="about__img-two">
                         </div>
-                    </div>
-                    <div class="about__history">
+                    </div> -->
+                    <!-- <div class="about__history">
                         <div data-section="about" data-value="foto1"></div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
             
@@ -435,7 +457,7 @@
             <div class="footer__container container grid">
                 <div class="footer__content grid">
                     <div class="footer__data">
-                        <h3 class="footer__title">Tangoloco</h3>
+                        <h3 class="footer__title">Tangoloco - Daniel García</h3>
                         <p class="footer__description">Seguinos en nuestras <br> resdes sociales <br> 
                         </p>
                         <div>

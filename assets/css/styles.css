@@ -321,7 +321,7 @@ input {
 
 .home__container {
   position: relative;
-  height: calc(70vh - var(--header-height));
+  height: calc(65vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
   padding-right: 1rem;
@@ -1100,6 +1100,9 @@ justify-items:center;
   }
   .home__info-img {
     width: 240px;
+  }
+  .discover{
+    padding: 7rem 0 2rem; /*like a section*/
   }
   .about__img-one {
     width: 230px;

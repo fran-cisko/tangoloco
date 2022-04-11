@@ -217,13 +217,17 @@ input {
 }
 
 .nav__logo, .nav__toggle {
-  color: var(--white-color);
+  color: var(--primer-color);
 }
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
+  letter-spacing: 0.275rem;
 }
-
+.nav__logo--sub{
+  font-size: var(--smaller-font-size);
+  letter-spacing: -0.0125rem;
+}
 .nav__toggle {
   font-size: 1.2rem;
   cursor: pointer;

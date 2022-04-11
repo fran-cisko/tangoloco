@@ -226,7 +226,7 @@ input {
 }
 .nav__logo--sub{
   font-size: var(--smaller-font-size);
-  letter-spacing: -0.0125rem;
+  letter-spacing: -0.0110rem;
 }
 .nav__toggle {
   font-size: 1.2rem;

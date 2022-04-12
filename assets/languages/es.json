@@ -32,6 +32,15 @@
 
     "youtube-chanel":{
         "youtube-chanel__title":"Nuestro canal de Youtube",
-        "youtube-chanel__description": "TANGO / FUSION . TANGOLOGO PLAY BEATLES FUSIONED WITH  TANGO MUSIC . ANOTHER STYLES AND ORIGINAL COMPOSITIONS WITH THE SOUL OF BUENOS AIRES. WITHOUT LIMITS !"
+        "youtube-chanel__description": "TANGO/FUSIÓN. The Beatles fusionado con música de tango, junto a otros estilos y composiciones originales con alma de Buenos Aires."
+    },
+
+    "members":{
+        "title":"Integrantes"
+    },
+
+    "form":{
+        "title":"Contáctanos"
     }
+
 }

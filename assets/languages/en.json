@@ -29,5 +29,13 @@
     "youtube-chanel":{
         "youtube-chanel__title":"Youtube Chanel",
         "youtube-chanel__description": "TANGO / FUSION . TANGOLOGO PLAY BEATLES FUSIONED WITH  TANGO MUSIC . ANOTHER STYLES AND ORIGINAL COMPOSITIONS WITH THE SOUL OF BUENOS AIRES. WITHOUT LIMITS !"
+    },
+
+    "members":{
+        "title":"Members"
+    },
+
+    "form":{
+        "title":"Contact Us"
     }
 }

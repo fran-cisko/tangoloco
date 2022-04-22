@@ -573,17 +573,17 @@
  audio.volume = 0.2;
 
  //para chrome pero no estaría funcionando
-   window.onload = function(){
-       document.audio.play();
-   }
+//    window.onload = function(){
+//        document.audio.play();
+//    }
 
-   var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-   if (!isChrome){
-       $('#iframeAudio').remove()
-   }
-   else {
-       $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-   }
+//    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+//    if (!isChrome){
+//        $('#iframeAudio').remove()
+//    }
+//    else {
+//        $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+//    }
 
 </script>
 </div>

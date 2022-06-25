@@ -507,6 +507,17 @@ input {
   transform: var(--img-scale);
 } */
 
+
+/*=============== PRESENTATIONS ===============*/
+.presentation__description{
+text-align: center;
+padding-top: 3.5rem;
+}
+.presentation_date{
+  font-family: var(--title-font);
+  font-weight: var(--font-semi-bold);
+}
+
 /*=============== DISCOVER ===============*/
 .discover__card {
   position: relative;
@@ -1170,4 +1181,8 @@ justify-items:center;
   /* .home__container{
     height: 640px;
   } */
+ 
+
 }
+
+
